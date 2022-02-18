@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import ReactLogo from '../src/mylogo.svg';
 
 import './App.css';
+import { Home } from './components/home';
 
 function App() {
   return (
@@ -20,11 +21,11 @@ function App() {
       
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">Home</Nav.Link>
-      <Nav.Link href="#pricing">Automation Testing</Nav.Link>
-      <Nav.Link href="#pricing">Resume</Nav.Link>
-      <Nav.Link href="#pricing">About</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
+      {/* <Nav.Link href="#deets">Home</Nav.Link> */}
+      {/* <Nav.Link href="#pricing">Automation Testing</Nav.Link> */}
+      {/* <Nav.Link href="#resume">Resume</Nav.Link>
+      <Nav.Link href="#about">About</Nav.Link> */}
+      {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
     </Nav>
   </Navbar.Collapse>
   </Container>
@@ -32,12 +33,8 @@ function App() {
 
 
 
-      <header className="App-header">
-        <p>Hello, my name is,</p>
-        <h1>Mohammed</h1>    
-        <p>Software Developer | Automation Tester | Computer Scientist</p>
-        <Button>Contact</Button>
-      </header>
+        <Home></Home>
+        
     </div>
   );
 }
