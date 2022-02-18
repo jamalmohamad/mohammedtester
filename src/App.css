@@ -55,14 +55,57 @@ body {
     /* border-style: solid; */
     /* border-radius: 1rem; */
     /* margin-left: 10rem; */
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
     /* margin-top: 4rem; */
     background-color: #5f9ea03d;
 }
 
 .cover-bg {
-  background-image: url("./utils/test.png");
+  background-image: url("./utils/banner2.png");
   background-size: cover;
   height: 100%;
 }
+
+.about {
+  background-color: rgba(177, 177, 177, 0.295);
+  /* border-radius: 0.5rem; */
+  margin-top: 2rem;
+
+}
+
+.automation {
+  background-color: rgba(177, 177, 177, 0.295);
+  /* border-radius: 0.5rem; */
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+.h-spaces {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.announcement {
+  background-color: #00ff958a;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
