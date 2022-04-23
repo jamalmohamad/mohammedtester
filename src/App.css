@@ -87,10 +87,11 @@ body {
 }
 
 .announcement {
-  background-color: #00ff958a;
-  color: white;
-  padding-top: 1rem;
-  padding-bottom: 0.4rem;
+  background-color: #e4ed60;
+  color: black;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-family: auto;
 }
 
 

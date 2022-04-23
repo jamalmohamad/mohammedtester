@@ -7,9 +7,9 @@ export function Introduction() {
                <div className="col-md-12 cover-bg">
                <div className="mycontainer">
                     {/* <h6>Hello and Welcome, My Name is,</h6> */}
-                    <h2>Mohammed Alhayaj</h2>
+                    <h2>Mohámád A.</h2>
                     <br></br>
-                    <h6>Software Developer  |  Automation Tester  |  Computer Scientist</h6>
+                    <h6>Computer Scientist | Automation Tester | Software Developer</h6>
                     </div>                 
                 </div>
 
