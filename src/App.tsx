@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="announcement">
-        <p>Looking for a Tester, you can reach me out through <a>mohammed.jamalhadi@gmail.com</a></p>
+        <p>Welcome, Looking for a Developer, Tester or interested in what I am doing, please <a href=''>contact me</a></p>
       </div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
@@ -23,12 +23,12 @@ function App() {
       
     </Nav>
     <Nav>
-       {/* <Nav.Link href="#deets">Home</Nav.Link> */}
-      {/* <Nav.Link href="#pricing">Automation Testing</Nav.Link> */}
-       <Nav.Link href="#resume">Resume(soon)</Nav.Link>
-       <Nav.Link href="#resume">Development(soon)</Nav.Link>
-      {/*<Nav.Link href="#about">About</Nav.Link> */}
-      {/* <Nav.Link href="#contact">Contact</Nav.Link> */}
+        <Nav.Link href="#deets">Home</Nav.Link>
+       {/* <Nav.Link href="#resume">Resume</Nav.Link> */}
+       <Nav.Link href="#development">Development</Nav.Link>
+       <Nav.Link href="#pricing">Testing</Nav.Link> 
+      <Nav.Link href="#articles">Articles</Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

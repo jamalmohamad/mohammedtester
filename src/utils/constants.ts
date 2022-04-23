@@ -1,0 +1,1 @@
+export const ABOUT_DESCRIPTION = "After Master study and thesis research I am continuing in free time and as a hobby to write Automation Testing articles on how to test web application products, If you are interested in what I am doing, please reach out to me";

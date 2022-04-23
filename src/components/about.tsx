@@ -1,14 +1,19 @@
+import { Button } from "react-bootstrap"
+import { ABOUT_DESCRIPTION } from "../utils/constants"
+
 export function About() {
     return (
         <div className="container about">
             <div className="row">
                 <div className="col-md-12">
-                    <h3 className="h-spaces">ABOUT</h3>        
-
-                    <h6 className="h-spaces">Hello and Welcome, I am enthusiastic software tester, besides software development, I do provides freelance services to test web application products focusing in the area of End-to-End Automation Testing with technologies such as Cucumber, Selenium and Cypress.</h6>
-                      
-
+                    <h3 className="h-spaces">Hello and Welcome</h3>        
+                      <h6 className="h-spaces">{ABOUT_DESCRIPTION}</h6>
                 </div>
+                <div className="col-md-12">
+                    <Button className="btn btn-success">Contact </Button>
+                    
+                </div>
+                
 
             </div>
 
