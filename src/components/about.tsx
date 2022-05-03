@@ -3,18 +3,12 @@ import { ABOUT_DESCRIPTION } from "../utils/constants"
 
 export function About() {
     return (
-        <div className="container about">
+        <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <h3 className="h-spaces">Hello and Welcome</h3>        
-                      <h6 className="h-spaces">{ABOUT_DESCRIPTION}</h6>
+                    <h5 className="h-spaces">Hello and Welcome</h5>        
+                      <p className="h-spaces">{ABOUT_DESCRIPTION}</p>
                 </div>
-                <div className="col-md-12">
-                    <Button className="btn btn-success">Contact </Button>
-                    
-                </div>
-                
-
             </div>
 
         </div>
