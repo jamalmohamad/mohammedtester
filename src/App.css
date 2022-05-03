@@ -134,7 +134,7 @@ body {
   border-style: solid;
   border-width: thin;
   border-radius: 0rem;
-  height: 40rem;
+  height: 60rem;
 }
 
 .custom-article-p {
@@ -149,4 +149,34 @@ body {
   padding-bottom: 0.3rem;
   color: #064ab1;
 
+}
+
+
+.custom-h2 {
+  padding-top: 2rem;
+}
+
+
+.custom-float-right {
+  float: right;
+}
+
+
+.custom-float-left {
+  float: left;
+}
+
+
+.up-down-padding {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.row.up-down-padding:hover {
+  background-color: #f3f3f3;
+}
+
+
+.up-margin {
+  margin-top: 1rem;
 }
