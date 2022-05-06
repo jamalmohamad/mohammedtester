@@ -1,1 +1,1 @@
-export const ABOUT_DESCRIPTION = "After Master study and thesis research, I keep doing my research and writing an Automation Testing articles in my spare time, If you are interested in what I am doing, please reach out to me";
+export const ABOUT_DESCRIPTION = "After Master study and thesis research, I keep doing R&D with writing an E2E Automation Testing scripts and articles in my spare time, you can find my latest work on github.";
