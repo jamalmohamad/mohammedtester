@@ -29,9 +29,9 @@ export function Home() {
             </div> */}
             </Stack>
 
-            <a href="https://www.linkedin.com/in/moh%C3%A1m%C3%A1d-7b8044173/">
+            {/* <a href="https://www.linkedin.com/in/moh%C3%A1m%C3%A1d-7b8044173/">
                 <img src={LinkedinLogo} width="40rem;"/>
-            </a>
+            </a> */}
             <a href="https://github.com/jamalmohamad">
                 <img src={GithubLogo} width="40rem;"/>
             </a>
