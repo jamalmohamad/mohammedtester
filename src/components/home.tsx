@@ -15,7 +15,7 @@ export function Home() {
         <Col sm={3} className="custom-box about">
         <Navbar.Brand href="">
             {/* <img src={ReactLogo} width="10%" alt="React Logo" /> */}
-            <h2>Mohámád A. </h2>
+            <h2 className="custom-h2">Mohámád A. </h2>
             
           </Navbar.Brand>
           <About></About>
